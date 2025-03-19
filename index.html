@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REJOICE</title>
+</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+     
+
+<body>
+    
+ 
+
+      <!-- Navbar1 Starts -->
+    <nav class="navbar navbar-expand-lg border-bottom border-body sticky-top" data-bs-theme="dark"  id="projectNavbar1">
+
+        <div class="container-fluid" id="navbarContainer">
+          <a class="navbar-brand" id="navbarBrand" href="index.html"><img src="./REJOICEFinal-removebg-preview.png" alt="" id="navbarBrandImage" style="filter: brightness(200%);"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navLinks">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item d-none d-xxl-block">
+                <a class="nav-link" href="#featureContainerr">FEATURES</a>
+              </li>
+              <li class="nav-item d-none d-xxl-block">
+                <a class="nav-link" href="#testimonialContainerr">TESTIMONIAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#amenitiesContainerr">AMENITIES</a>
+              </li>
+              <li class="nav-item d-none d-xxl-block">
+                <a class="nav-link" href="#aboutContainerr">ABOUT US</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="members.html">MEMBERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="terms.html">TERMS & CONDITIONS</a>
+              </li>
+            </ul>         
+          </div>
+          <button type="button" class="profileWebBtn" data-bs-toggle="modal" data-bs-target="#loginModal"><img src="./Profile.webp" alt="" class="profileWeb"></button>
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+        </div>
+
+      </nav>
+
+
+      <!-- Navbar2 Starts -->
+      <nav class="navbar navbar-expand-xxl border-bottom border-body sticky-top" data-bs-theme="dark" id="projectNavbar2">
+        <div class="container-fluid" id="navbarContainer">
+            <a class="navbar-brand" id="navbarBrand" href="index.html">
+                <img src="./REJOICEFinal-removebg-preview.png" alt="" id="navbarBrandImage" style="filter: brightness(200%);"> 
+            </a>
+            
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-xxl-0" id="navLinks">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#projectNavbar2">HOME</a>
+                    </li>
+                    <li class="nav-item d-none d-xxl-block">
+                        <a class="nav-link" href="#featureContainerr">FEATURES</a>
+                    </li>
+                    <li class="nav-item d-none d-xxl-block">
+                        <a class="nav-link" href="#testimonialContainerr">TESTIMONIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#amenitiesContainerr">AMENITIES</a>
+                    </li>
+                    <li class="nav-item d-none d-xxl-block">
+                        <a class="nav-link" href="#aboutContainerr">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="members.html">MEMBERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="terms.html">TERMS & CONDITIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="profileWebBtn" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <img src="./Profile.webp" alt="" class="profileWeb">
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+
+   
+      
+<!-- modal starts -->
+  <!-- login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modalheader">
+          <h1 class="modal-title fs-5 text-centre" id="loginModalLabel"><img src="REJOICEFinal-removebg-preview.png" alt="" id="modalImage" style="filter: brightness(200%);"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modalContainer">
+            <form id="loginForm">
+                <div class="formEntry">
+                    <div class=" modalContent">
+                        <label for="exampleInputEmail1" class="form-label modalContent"></label>
+                        <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter your email address">
+                    </div>
+                    <div class="mb-4 modalContent">
+                        <label for="exampleInputPassword1" class="form-label modalContent"></label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                    </div>
+                </div>
+                
+                
+                <button type="submit" class="continuebutton" id="loginBtn">CONTINUE</button>
+                <button type="submit" class="socialConnectBtn">
+                    <span>Or connect with</span>
+                    <img src="./Google.svg" alt="" class="socialLogo">
+                    <img src="./Microsoft.svg" alt="" class="socialLogo">
+                    <img src="./twitter.svg" alt="" class="socialLogo">
+                </button>
+                <!-- <p class="terms">* By continuing you agree to the <a href="#" class="termsLinks">Terms of Services</a> and <a href="#" class="termsLinks">Privacy Policy</a>.</p> -->
+              </form>
+
+        </div>
+        <div class="modal-footer modalfooter">
+          <!-- <button type="submit" class="btn btn-primary">Login</button>  -->
+          <p class="terms">* By continuing you agree to the <a href="#" class="termsLinks">Terms of Services</a> and <a href="#" class="termsLinks">Privacy Policy</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Register Modal -->
+    <!-- register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header modalheader">
+              <h1 class="modal-title fs-5" id="registerModalLabel"><img src="REJOICEFinal-removebg-preview.png" alt="" id="modalImage" style="filter: brightness(200%);"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modalContainer">
+                <form id="registerForm" class="row g-3">
+                    <div class="col-12">
+                        <label for="inputName" class="form-label"></label>
+                        <input type="text" class="form-control" id="registerName" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="inputEmail4" class="form-label"></label>
+                      <input type="email" class="form-control" id="registerEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="inputPassword4" class="form-label"></label>
+                      <input type="password" class="form-control" id="registerPassword" placeholder="Enter your password">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label"></label>
+                      <input type="text" class="form-control" id="registerAddress" placeholder="Address: 1234 Main St,Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputState" class="form-label"></label>
+                      <input type="text" class="form-control" id="registerState" placeholder="Enter your state">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label"></label>
+                      <input type="text" class="form-control" id="registerCity" placeholder="Enter your city">
+                    </div>
+                    <div class="modal-footer modalfooter">
+                        <button type="submit" id="registerBtn" class="btn btn-success">Register</button>
+                      </div>
+                  </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+<!-- modal ends -->
+<!-- Navbar Ends -->
+
+
+
+
+
+<!-- <h2>Registered Users</h2> -->
+<!-- <div id="usersList"></div> -->
+<!-- <button onclick="fetchUsers()">Refresh User List</button> -->
+
+      <!-- welcomeImage starts -->
+      <div class="card text-bg-dark">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img" alt="..." loading="lazy">
+          <div class="gymPhotoTextContainer">
+            <div class="card-img-overlay gymPhotoContent">
+                <div class="textAndImageInWelcome">
+                    <p class="card-title" id="gymPCardTitle">“I never dreamed about success. I worked for it.” —Estée Lauder</p>
+                </div>
+                <div class="membershipContainer">
+
+                    <div class="membershipContent">
+                        
+                        <div class="membershipGrid">
+            
+                            <!-- Card 1 -->
+                            <div class="membershipCard" id="mcard1">
+                                <a href="elite.html">
+                                    <div class="membershipHeader">
+                                        Rejoice
+                                    </div>
+                
+                                    <div class="membershipMain" id="membershipCard1">
+                                        ELITE
+                                    </div>
+                
+                                    <div class="membershipText">
+                                        Unlimited access to group classes,all gyms and at-home workouts
+                                    </div>
+                                </a>
+                            </div>
+            
+                            <!-- Card 2 -->
+                            <div class="membershipCard" id="mcard2">
+                                <a href="pro.html">
+                                    <div class="membershipHeader">
+                                        Rejoice
+                                    </div>
+                
+                                    <div class="membershipMain" id="membershipCard2">
+                                        PRO
+                                    </div>
+                
+                                    <div class="membershipText">
+                                        Unlimited access to all pro gyms and at-home workouts
+                                    </div>
+                                    
+                                </a>
+                            </div>
+            
+                             <!-- Card 3 -->
+                            <div class="membershipCard" id="mcard3">
+                                <a href="home.html">
+                                    <div class="membershipHeader">
+                                        Rejoice
+                                    </div>
+                
+                                    <div class="membershipMain" id="membershipCard3">
+                                        HOME
+                                    </div>
+                
+                                    <div class="membershipText">
+                                        Unlimited access to all at-home workouts
+                                    </div>              
+                                
+                                </a>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                
+                </div>
+                <div class="textAndImageInWelcome">
+                    <p class="card-title" id="gymPCardTitle2">“Try not to become a man of success, but rather become a man of value.” —Albert Einstein</p>
+                </div>
+            
+            </div>
+          </div>
+      </div>
+      <!-- welcomeImage Ends -->
+
+
+
+    <!-- <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h2 class="">New to gyming?</h2>
+
+                    <h6 class="">We got you covered with our Fitness Starter Bundle</h6>
+
+                    <p>First up we take your fitness test, followed by the card planner. Next up we back you with the nutrition.</p>
+
+                    <a href="https://thereshapefitness.com/payment/checkout" class="btn custom-btn bg-color mt-3"><b>Start Now!</b></a>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="about-working-hours">
+                          <div>
+                                <h2 class="">Working hours</h2>
+
+                               <strong class="">Sunday</strong>
+                                <p>7:00 AM - 01:00 PM</p>
+
+                               <strong class="">Monday - Saturday</strong>
+
+                                <p>7:00 AM - 10:00 PM</p>   
+                          </div>
+                     </div>
+                </div>
+
+            </div>
+        
+    </section> -->
+
+      
+
+
+<!-- membershipContainer starts -->
+    <div class="membershipContainer1">
+
+        <div class="membershipContent">
+            
+            <div class="membershipGrid">
+
+                <!-- Card 1 -->
+                <div class="membershipCard" id="mcard1">
+                    <a href="elite.html">
+                    <div class="membershipHeader">
+                        Rejoice
+                    </div>
+                    
+
+                    <div class="membershipMain" id="membershipCard1">
+                        Elite
+                    </div>
+
+                    <div class="membershipText">
+                        Unlimited access to group classes,all gyms and at-home workouts
+                    </div>
+                </a>
+
+                    
+                </div>
+
+                <!-- Card 2 -->
+                <div class="membershipCard" id="mcard2">
+                    <a href="pro.html">
+                    <div class="membershipHeader">
+                        Rejoice
+                    </div>
+
+                    <div class="membershipMain" id="membershipCard2">
+                        Pro
+                    </div>
+
+                    <div class="membershipText">
+                        Unlimited access to all pro gyms and at-home workouts
+                    </div>
+                </a>
+                    
+                
+                </div>
+
+                 <!-- Card 3 -->
+                <div class="membershipCard" id="mcard3">
+                    <a href="home.html">
+
+                    <div class="membershipHeader">
+                        Rejoice
+                    </div>
+
+                    <div class="membershipMain" id="membershipCard3">
+                        Home
+                    </div>
+
+                    <div class="membershipText">
+                        Unlimited access to all at-home workouts
+                    </div>    
+                </a>
+
+                
+                </div>
+
+            </div>
+
+        </div>
+    
+    </div>
+
+<!-- membershipContainer Ends -->
+
+
+
+
+<!-- featureContainers starts     -->
+
+    <div class="featureContainer" id="featureContainerr">
+
+        <div class="featureContent">
+            
+            <div class="mainInfo">
+                <h5 class="mainTitle">
+                    Get a Perfect Body
+                </h5>
+                <h2 class="mainPara">
+                    Our Special Features
+                <h2>
+            </div>
+
+            <div class="featureGrid">
+               
+                <!-- Card 1 -->
+                <div class="featureCard">
+
+                    <img class="featurePhoto" src="./pausePeriod.png" alt="">
+
+                    <div class="featureinfo">
+                        <div class="featureTitle">
+                            Pause Period
+                        </div>
+                        <div class="featureDescription1">
+                            Get 45 days pause period
+                        </div>
+                        <div class="featureDescription">
+                            Out of town? No worries pause anytime.
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Card 2  -->
+                <div class="featureCard">
+
+                    <img class="featurePhoto" src="./extensionPic.png" alt="">
+
+                    <div class="featureinfo">
+                        <div class="featureTitle">
+                            Extension
+                        </div>
+                        <div class="featureDescription1">
+                            Get 3 months Extension
+                        </div>
+                        <div class="featureDescription">
+                            Get all in 15 months of membership in total.
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Card 3  -->
+                <div class="featureCard">
+
+                    <img class="featurePhoto" src="./anywhereaccessPhoto.avif" alt="">
+                    
+                    <div class="featureinfo">
+                        <div class="featureTitle">
+                            Anywhere Access
+                        </div>
+                        <div class="featureDescription1">
+                            Access all over Mumbai
+                        </div>
+                        <div class="featureDescription">
+                            Get access to any cult pro gyms all across Mumbai.
+                        </div>
+                    </div>
+                    
+                </div>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- featurecontainer Ends -->
+
+
+<!-- testimonialContainer starts -->
+
+    <div class="testimonialContainer" id="testimonialContainerr">
+
+        <div class="testimonialContent">
+
+            <h2 class="testimonialHeader">
+                Our happy members
+            </h2>
+            
+            <div class="testimonialGrid">
+
+                <!-- Card 1 -->
+                <div class="testimonialCard">
+
+                    <div class="testimonialText">
+                        "Tanveer's Gym is the perfect place for professionals like me who need a well-structured workout plan. The trainers are highly knowledgeable, and the equipment is top-notch. I've seen great results in just a few months!"
+                    </div>
+                    <div class="testimonialAvatar">
+                        <img  class="Avatar" src="./photo-1522556189639-b150ed9c4330.avif" alt="">
+                    </div>
+
+                    <div class="testimonialInfo">
+
+                        <h3 class="authorName">
+                            Vince Fleming
+                        </h3>
+                        <p class="designation">
+                            Software Engineer
+                        </p>
+
+                    </div>
+                
+                </div>
+
+                <!-- Card 2 -->
+                <div class="testimonialCard">
+
+                    <div class="testimonialText">
+                        "I absolutely love the energy at Tanveer's Gym! The group workout sessions are super motivating, and the trainers always push me to do my best. It's the best place to stay fit while balancing studies!"
+                    </div>
+                    <div class="testimonialAvatar">
+                        <img  class="Avatar" src="./avatar1.png" alt="">
+                    </div>
+
+                    <div class="testimonialInfo">
+
+                        <h3 class="authorName">
+                            Meg Lanning
+                        </h3>
+                        <p class="designation">
+                            College student
+                        </p>
+
+                    </div>
+                
+                </div>
+
+                 <!-- Card 3 -->
+                <div class="testimonialCard">
+
+                    <div class="testimonialText">
+                        "As a businessman, my schedule is tight, but Tanveer's Gym offers flexible timings that suit my routine. The personal training sessions have helped me build strength and stamina. Highly recommend it!"
+                    </div>
+                    <div class="testimonialAvatar">
+                        <img  class="Avatar" src="avatar3.png" alt="">
+                    </div>
+
+                    <div class="testimonialInfo">
+
+                        <h3 class="authorName">
+                            Brian Charles
+                        </h3>
+                        <p class="designation">
+                            Business Owner
+                        </p>
+
+                    </div>
+                
+                </div>
+
+                 <!-- Card 4-->
+                 <div class="testimonialCard">
+
+                    <div class="testimonialText">
+                        "Joining Tanveer's Gym was the best decision I made for my health. The trainers are so supportive, and the atmosphere is very welcoming. It’s great to see a gym where women feel comfortable and confident!"
+                    </div>
+                    <div class="testimonialAvatar">
+                        <img  class="Avatar" src="./mkk.avif" alt="">
+                    </div>
+
+                    <div class="testimonialInfo">
+
+                        <h3 class="authorName">
+                            Christina Robinson
+                        </h3>
+                        <p class="designation">
+                            Homemaker
+                        </p>
+
+                    </div>
+                
+                </div>
+
+                 <!-- Card 5 -->
+                 <div class="testimonialCard">
+
+                    <div class="testimonialText">
+                        "Discipline and fitness have always been a part of my life, and Tanveer's Gym maintains that standard. The trainers focus on correct form and technique, which is essential for long-term fitness. A great place for people of all ages!"
+                    </div>
+                    <div class="testimonialAvatar">
+                        <img  class="Avatar" src="./army.avif" alt="">
+                    </div>
+
+                    <div class="testimonialInfo">
+
+                        <h3 class="authorName">
+                            Brendon Kars
+                        </h3>
+                        <p class="designation">
+                            Retired Army Officer
+                        </p>
+
+                    </div>
+                
+                </div>
+
+                <!-- Card 6 -->
+                <div class="testimonialCard">
+
+                    <div class="testimonialText">
+                        "Rejoice Gym is more than just a fitness center; it's a community that keeps you motivated every day! The trainers are super helpful, and the workout plans are customized to individual needs. I’ve never felt more energetic and confident!"
+                    </div>
+                    <div class="testimonialAvatar">
+                        <img  class="Avatar" src="./executive.avif" alt="">
+                    </div>
+
+                    <div class="testimonialInfo">
+
+                        <h3 class="authorName">
+                            Toa Heftiba
+                        </h3>
+                        <p class="designation">
+                            Marketing Executive
+                        </p>
+
+                    </div>
+                
+                </div>
+
+                
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- testimonialContainer Ends -->
+
+<div class="testimonialContainer2">
+<div class="swiper mySwiper" style="width: 100%; height: 100%;">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide" style="width: 100%; height: 100%;">
+            <div class="testimonialCard2" style="width: 100%; height: 100%;">
+
+                <div class="testimonialText2">
+                    "The perfect place for professionals like me who need a well-structured workout plan. The trainers are highly knowledgeable, and the equipment is top-notch. I've seen great results!"
+                </div>
+                <div class="testimonialAvatar">
+                    <img  class="Avatar" src="./photo-1522556189639-b150ed9c4330.avif" alt="">
+                </div>
+
+                <div class="testimonialInfo">
+
+                    <h3 class="authorName">
+                        Vince Fleming
+                    </h3>
+                    <p class="designation">
+                        Software Engineer
+                    </p>
+
+                </div>
+            
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide" style="width: 100%; height: 100%;">
+            <div class="testimonialCard2" style="width: 100%; height: 100%;">
+
+                <div class="testimonialText2">
+                    "I absolutely love the energy at Tanveer's Gym! The group workout sessions are super motivating, and the trainers always push me to do my best. It's the best place to stay fit while balancing studies!"
+                </div>
+                <div class="testimonialAvatar">
+                    <img  class="Avatar" src="./avatar1.png" alt="">
+                </div>
+
+                <div class="testimonialInfo">
+
+                    <h3 class="authorName">
+                        Meg Lanning
+                    </h3>
+                    <p class="designation">
+                        College student
+                    </p>
+
+                </div>
+            
+            </div>
+
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide" style="width: 100%; height: 100%;">
+            <div class="testimonialCard2" style="width: 100%; height: 100%;">
+
+                <div class="testimonialText2">
+                    "As a businessman, my schedule is tight, but Tanveer's Gym offers flexible timings that suit my routine. The personal training sessions have helped me build strength and stamina. Highly recommend it!"
+                </div>
+                <div class="testimonialAvatar">
+                    <img  class="Avatar" src="avatar3.png" alt="">
+                </div>
+
+                <div class="testimonialInfo">
+
+                    <h3 class="authorName">
+                        Brian Charles
+                    </h3>
+                    <p class="designation">
+                        Business Owner
+                    </p>
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+</div>
+
+
+<!-- Amenities Corrousal starts -->
+
+    <section class="amenitiesSection" id="amenitiesContainerr" style="padding-left: 0%; padding-right: 0%;">
+        <div class="mainInfo ">
+            <h5 class="mainTitle text-centre">
+                Training Area
+            </h5>
+            <h2 class="mainPara text-centre">
+                Amenities & Equipments
+            <h2>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide container-fluid" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>                 -->
+
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./4.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./5.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./6.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./7.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+<!-- Amenities corrousal Ends -->
+
+
+<!-- AboutSection Starts -->
+    <div class="aboutContainer" id="aboutContainerr">
+        <section class="mainSection">
+
+            <div class="contentLeft">
+                <h3 class="sectionTitle">
+                    Hello, we are Rejoice!
+                </h3>
+                <p class="sectionLabel">
+                    Rejoice is a premium gym with a spacious ambience & has 
+                    every single thing that you need in order to start your fitness journey. 
+                    General trainers have an incredible involvement with the gym members. 
+                    They seems to be the personal trainers. The vibe & aura is different here.
+                </p>
+                <p class="sectionDescription">
+                    Definitely book a free gym tour to experience the vibe as it is worth the visit.
+                </p>
+                <!-- <div class="buttonGroup">
+                    <a class="startButton" href="#start">Start now</a>
+                    <a class="tourButton" href="#tour">Take Tour</a>
+                </div> -->
+            </div>
+
+            <div class="contentRight">
+                <img src="./REJOICE-removebg-preview (1).png" alt="sectionImage" class="sectionImage" style="filter: brightness(200%);">
+            </div>
+            
+        </section>
+
+    </div>
+<!-- AboutSection Ends -->
+
+
+    <!-- <div class="newsletterContainer">
+
+        <div class="newsletterContent"> -->
+
+            <!-- Left Part -->
+            <!-- <div class="newsLeft">
+                <img class="newsImage" src="imgRightContent.png" alt="">
+             </div> -->
+            <!-- Right Part -->
+            <!-- <div class="newsRight">
+                
+                <div class="newsInfo">
+                    <h1 class="newsHeader">
+                        Get the latest updates
+                    </h1>
+                    <p class="newsText">
+                        Sign up for our newsletter
+                    </p>
+                </div>
+
+                <form class="newsForm">
+                    <input type="text" id="Email" placeholder="Email">
+                    <button class="sendButton">Send</button>
+                </form>
+
+                <div class="newsLastLine">
+                    By signing up to our newsletter you agree to our
+                    <a class="newsLink" href="#1">Terms of Service</a>
+                    and
+                    <a class="newsLink" href="#2">Privacy policy</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+
+    <!-- Contact and map section starts  -->
+    <section class="about section" id="contact">
+            <div class="contactContent">
+
+                <div class="rightContact">
+                    <h2 class="mb-4 pb-2 " id="contactHeading">Contact Us!</h2>
+
+                    <form action="https://thereshapefitness.com/home/save" method="post" class="contact-form webform" id="contactForm" role="form">
+
+                        <input type="hidden" name="type" value="contact" >
+
+                        <input type="text" class="form-control" name="cf-name" placeholder="Name" required="" id="cfName">
+
+                        <input type="number" class="form-control" name="cf-contact" placeholder="Contact" required="" id="cfContact">
+
+                        <input type="email" class="form-control" name="cf-email" placeholder="Email (optional) " id="cfEmail">
+
+                        <textarea class="form-control" rows="5" name="cf-message" placeholder="Message (optional)" id="cfMessage"></textarea>
+
+                        <button type="submit" id="submitBtn" class="form-control" id="submit-button" name="submit" style="border: 1px solid black;">Submit</button>
+                    </form>
+                </div>
+
+                <div class="leftContact">
+                    <div class="leftContactContent">
+                        <h2 class="mb-4" id="mapHeading">Where you can <span>find us</span></h2>
+
+                        <p id="mapAddress"><span>First Floor, 360 Hampton Dr,
+                            Near Sunset Ave,
+                            Venice, Los Angeles, California 90291,
+                            United States.</span></p>
+
+                        <div class="google-map " id="findMap">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d120662.60314723593!2d72.82593858024896!3d19.076644397293443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be7c738bf217433%3A0x9fd32c9bd9b1b0e!2sSecond%20Foor%2C%2090%20Feet%20Rd%2C%20above%20Swaminarayan%20Temple%2C%20Jaigayatri%20Co-op%20Housing%20Society%2C%20Garodia%20Nagar%2C%20Ghatkopar%20East%2C%20Mumbai%2C%20Maharashtra%20400077!3m2!1d19.0766651!2d72.908337!5e0!3m2!1sen!2sin!4v1702998282608!5m2!1sen!2sin"
+                        height="350" id="ogMap" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.771184737591!2d-118.47829292341326!3d33.99509397321716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb37c1763e1f%3A0x7b3a0f0e5468e7b!2s360%20Hampton%20Dr%2C%20Venice%2C%20CA%2090291%2C%20USA!5e0!3m2!1sen!2sin!4v1707990000000!5m2!1sen!2sin" 
+                            height="350" 
+                            id="ogMap"
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+            </div>
+    </section>
+<!-- Contact and map section ends -->
+
+
+
+<!-- Footer Section starts  -->
+    <div class="footerContainer">
+
+        <footer class="footer">
+
+            <div class="footerTop">
+
+                <div class="compLogo">
+
+                    <a href="#" class="logoLink">
+                        <img src="./REJOICEFinal-removebg-preview.png" alt="" class="compIcon" style="filter: brightness(100%);">
+                    </a>
+
+                    <p class="fillerText">A fitness movement that is worth breaking a sweat for</p>
+
+                    <div class="socials">
+                        <a href="#" class="socialLink">
+                            <img src="instagram.svg" alt="" class="socialLogo">
+                        </a>
+
+                        <a href="#" class="socialLink"></a>
+                            <img src="twitter.svg" alt="" class="socialLogo">
+                        </a>
+
+                        <a href="#" class="socialLink"></a>
+                            <img src="linkedin-copy.svg" alt="" class="socialLogo">
+                        </a>
+                        
+                        <a href="#" class="socialLink"></a>
+                            <img src="github.svg" alt="" class="socialLogo">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footerGrid">
+
+                <!-- Column 1 -->
+                <div class="footerGridColumn">
+
+                    <div class="footerGridHeading">
+                        Products
+                    </div>
+
+                    <ul class="footerLinksList">
+                            
+                        <li>
+                            <a href="#" class="footerLink">Overview</a>
+                        </li>
+                  
+                        <li>
+                            <a href="#" class="footerLink">Solutions</a>
+                        </li>
+                                 
+                        <li>
+                            <a href="#" class="footerLink">Pricing</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footerLink">Customers</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footerGridColumn">
+
+                    <div class="footerGridHeading">
+                        Company
+                    </div>
+
+                    <ul class="footerLinksList">
+                            
+                        <li>
+                            <a href="#" class="footerLink">About</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footerLink">Investor Relations</a>
+                        </li>                        
+                        
+                        <li>
+                            <a href="#" class="footerLink">Jobs</a>
+                        </li>                       
+
+                        <li>
+                            <a href="#" class="footerLink">Press</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footerLink">Blog</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footerGridColumn">
+
+                    <div class="footerGridHeading">
+                        Support
+                    </div>
+
+                    <ul class="footerLinksList">
+                            
+                        <li>
+                            <a href="#" class="footerLink">Contact</a>
+                        </li>
+
+                        
+                        <li>
+                            <a href="#" class="footerLink">Documentation</a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="#" class="footerLink">Chat</a>
+                        </li>
+                        
+
+                        <li>
+                            <a href="#" class="footerLink">FAQ</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+
+                <!-- Column 4 -->
+                <div class="footerGridColumn">
+
+                    <div class="footerGridHeading">
+                        Legal
+                    </div>
+
+                    <ul class="footerLinksList">
+                            
+                        <li>
+                            <a href="#" class="footerLink">Terms of Service</a>
+                        </li>
+
+                        
+                        <li>
+                            <a href="#" class="footerLink">Privacy Policy</a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="#" class="footerLink">Cookie settings</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+
+            </div>
+
+        </footer>
+
+        <footer class="footerCopyright">
+            <div class="copyRight">
+                © 2025 - <span class="fText">REJOICE</span>. All rights reserved.
+            </div>
+            <div class="fContact">
+                <div class="fEmail">
+                    <a href="#" class="fText"><img src="./maildownloadFinal (1).png" alt="" class="fMailLogo"> rejoice.fitness2025@gmail.com </a>
+                </div>
+                <div class="fTel">
+                    <a href="#" class="fText"><img src="./callimages.jpg" alt="" class="fCallLogo"><span class="fText">+91 9145448901</span></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+<!-- Footer Section ends  -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="backend.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+</body>
+</html>

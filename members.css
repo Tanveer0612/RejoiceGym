@@ -1,0 +1,81 @@
+body {
+    background-color: #f8f9fa;
+    /* background-color: black; */
+}
+
+.table-container {
+    background: #fff;
+    height: 80vh;
+    margin: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.admin-badge {
+    background-color: #ff9800;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Card container */
+#usersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* User Card */
+.user-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    border-left: 5px solid transparent;
+}
+
+/* Admin-Specific Card */
+.admin-card {
+    border-left-color: gold;
+    background: #fff5c3;
+}
+
+/* Member-Specific Card */
+.member-card {
+    border-left-color: #007bff;
+}
+
+/* Admin & Member Badges */
+.role-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Admin Badge */
+.admin-badge {
+    background: gold;
+    color: #000;
+}
+
+/* Member Badge */
+.member-badge {
+    background: lightgray;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .user-card {
+        width: 90%;
+    }
+}
